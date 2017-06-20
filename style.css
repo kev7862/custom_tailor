@@ -1,52 +1,184 @@
-.top{
+.top {
   font-size: 20px;
   background-color: black;
 }
-.menu{
-  opacity: 0.5;
-  height: 100%;
-  position: fixed;
-  top:100px;
-  padding-left: 20px;
-  text-align: left;
-  background-color: grey;
-  font-size: 30px;
-  font-family: sans-serif;
-}
-#slide{
-  list-style: none;
-  display: block;
-  background-color: black;
-}
-#slide:hover{
-  background-color: white;
-}
-header{
+
+header {
   width: 100%;
   height: 50px;
-  color: white;
-  background-color: #262626;
+  color: blue;
   text-align: center;
 }
-.about{
+
+.about {
   font-size: 20px;
   border: 1px;
 }
-#factory{
-  float: right;
+
+.partners {
+  width: 500px;
+  height: 200px;
 }
-#measure{
-  font-size: 20px;
-}
-.written{
+
+.written {
   background-image: url(picha/written.jpg);
   background-repeat: no-repeat;
   padding-bottom: 35%
 }
-.footer1{
+
+footer {
   text-align: right;
-  background-color: white;
+  background-color: black;
 }
-#measure1{
-  background-color: #F0F0F0
+
+
+/* The Overlay (background) */
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: absolute;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: black;
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+
+/* The navigation links inside the overlay */
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: grey;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+
+/* Position the close button (top right corner) */
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#open {
+  cursor: pointer;
+}
+
+.factoryImg {
+  width: 595px;
+  height: 300px;
+}
+
+#glyphiconMenu {
+  font-size: 28px;
+  color: MidnightBlue;
+}
+
+#stars {
+  float: right;
+  color: blue;
+}
+
+#logoImg2 {
+  float: right;
+}
+
+.reviews {
+  float: right;
+  color: blue;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+#twitter-icon {
+  margin-right: 20px;
+}
+
+#facebook-icon {
+  margin-right: 20px;
+}
+
+#github-icon {
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background-color: grey;
+}
+
+#footerImage2 {
+  width: 509px;
+  height: 350px;
+}
+
+#aboutus {
+  text-align: center;
+}
+
+.carouselContent {
+  color: blue;
+  padding-bottom: 200px;
 }
