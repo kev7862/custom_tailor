@@ -1,0 +1,195 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Address</title>
+  </head>
+  <body>
+
+    <div class="img">
+      <div id="Suit">
+        <img class="bottom" src="picha/bleza.jpg" width="450" height="500"/>
+        <img class="top" src="picha/class.jpg" width="450" height="500"/>
+        <img class="top" src="picha/soots.jpg" width="450" height="500"/>
+        <img class="top" src="picha/soot.jpg" width="450" height="500"/>
+      </div>
+    </div>
+      <!-- Form starts here-->
+<div class="content">
+  <div class="form-style-3">
+    <form>
+      <fieldset><legend>Shipping Address</legend>
+        <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+        <label for="field2"><span>Phone No.<span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+        <label for="field3"><span>Email Address<span class="required"></span></span><input type="text" class="input-field" name="field3" value="" /></label>
+        <label for="field4"><span>Location</span><select name="field4" class="select-field">
+          <option value="Nairobi CBD">Nairobi CBD</option>
+          <option value="Outside Nairobi">Outside Nairobi</option>
+        </select></label>
+      </fieldset>
+      <fieldset><legend>Comments</legend>
+        <label for="field6"><span>Comments<span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+        <label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
+      </fieldset>
+    </form>
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<style type="text/css">
+
+body {
+  background-color: black
+}
+
+.form-style-3{
+    max-width: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid white;
+    padding: 50px;
+    background-image: url("picha/class.jpg"); background-size: cover;
+    background-repeat:no-repeat;
+    box-shadow: inset 0px 0px 15px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.form-style-3 fieldset legend{
+    color: #blue;
+    border-top: 1px solid #FFD2D2;
+    border-left: 1px solid #FFD2D2;
+    border-right: 1px solid #FFD2D2;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #FFF4F4;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px white;
+    -moz-box-shadow:-0px -1px 2px white;
+    -webkit-box-shadow:-0px -1px 2px white;
+    font-weight: normal;
+    font-size: 12px;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select,
+.form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #FFC2DC;
+    outline: none;
+    color: black;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+    background: grey;
+    width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+    background: black;
+    border: 1px solid white;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    box-shadow: inset -1px -1px 3px white;
+    -moz-box-shadow: inset -1px -1px 3px white;
+    -webkit-box-shadow: inset -1px -1px 3px white;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight:normal;
+}
+
+#Suit img {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#Suit img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes SuitFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#Suit img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+#Suit img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+#Suit img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+#Suit img:nth-of-type(4) {
+  animation-delay: 0;
+}
+.content {
+  float: right;
+}
+
+.img {
+  float:left;
+}
+
+</style>
