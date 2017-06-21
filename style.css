@@ -183,18 +183,93 @@ p {
   padding-bottom: 200px;
 }
 
-<<<<<<< HEAD
 .flow1{
     height: 150px;
     width: 150px;
 }
-=======
+
 .row1{
    width: 320px;
    height: 300px;
     
 }
-  
->>>>>>> isaac
+     
    
-   
+}
+
+.factoryImg {
+  width: 595px;
+  height: 300px;
+}
+
+#glyphiconMenu {
+  font-size: 28px;
+  color: MidnightBlue;
+}
+
+#stars {
+  float: right;
+  color: blue;
+}
+
+#logoImg2 {
+  float: right;
+}
+
+.reviews {
+  float: right;
+  color: blue;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+#twitter-icon {
+  margin-right: 20px;
+}
+
+#facebook-icon {
+  margin-right: 20px;
+}
+
+#github-icon {
+  margin-right: 20px;
+}
+
+#footerImage2 {
+  width: 509px;
+  height: 350px;
+}
+
+#aboutus {
+  text-align: center;
+}
+
+.carouselContent {
+  color: blue;
+  padding-bottom: 200px;
+}
+<!--measurement header-->
+#measure1{
+  background-color: #e6e6e6
+}
+#head1{
+  background-color: #000000;
+}
+#head2{
+  background-color: #000000;
+}
+#head3{
+  background-color: #000000;
+}
+<!--end of measurement header-->
