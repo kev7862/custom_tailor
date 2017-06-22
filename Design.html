@@ -8,7 +8,7 @@
     <title>choose design</title>
   </head>
   <body>
-    
+
     <ul class="nav nav-tabs top">
       <li role="presentation"><a href="index.html">Home</a></li>
       <li role="presentation"><a href="about.html">About Us</a></li>
@@ -87,12 +87,13 @@
         <li>Style: Official pants</li>
         <li>Features: 2 piece, drop 8 slim fit</li>
       </ul>
-      <a href="https://www.paypal.com/ke/home" class="btn btn-info" role="button">Buy Now</a><!--end of suit3-->
+      <a href="https://www.paypal.com/ke/home" class="btn btn-info" role="button">Buy Now</a><!--end of suit3--><br>
+
     </div>
     <div class="jumbotron suit3 col-md-3"><!--beginning of suit4-->
-      <img src="picha/blazer101.jpg" alt="suit2" style="max-width:100%;">
-      <img src="picha/blazer102.jpg" alt="suit2" style="max-width:100%;">
-      <img src="picha/blazer103.jpg" alt="suit2" style="max-width:100%;">
+      <img src="picha/blazer101.jpg" alt="suit2" style="max-width:100%;" class="picha2 " id="picha3">
+      <img src="picha/blazer102.jpg" alt="suit2" style="max-width:100%;" class="picha2">
+      <img src="picha/blazer103.jpg" alt="suit2" style="max-width:100%;" class="picha2">
 
       <h2>KSH 9,999</h2>
       <header class="hd1">
@@ -118,7 +119,7 @@
       </ul>
       <a href="https://www.paypal.com/ke/home" class="btn btn-info" role="button">Buy Now</a><!--end of suit4-->
     </div>
-    <div class="jumbotron suit3 col-md-3"><!--beginning of suit4-->
+    <div class="jumbotron suit5 col-md-3"><!--beginning of suit5-->
       <img src="picha/strip.jpg" alt="suit2" style="max-width:100%;">
       <img src="picha/strip2.jpg" alt="suit2" style="max-width:100%;">
       <img src="picha/strip3.jpg" alt="suit2" style="max-width:100%;">
@@ -142,17 +143,37 @@
       <li>Fastening: 2 Buttons</li>
       <li>Style: Official pants</li>
       <li>Features: 2 piece with white stripes</li>
-      </ul>
-      <a href="https://www.paypal.com/ke/home" class="btn btn-info" role="button">Buy Now</a><!--end of suit4-->
+    </ul>
+      <a href="https://www.paypal.com/ke/home" class="btn btn-info" role="button">Buy Now</a><!--end of suit5-->
     </div>
+    <div class="jumbotron suit6 col-md-3"><!--beginning of suit6-->
+      <img src="picha/koti.jpg" alt="suit2" style="max-width:100%;">
+      <img src="picha/koti2.jpg" alt="suit2" style="max-width:100%;">
 
-
-
+      <h2>KSH 17,000</h2>
+      <header class="hd1">
+        <h2>Description</h2>
+      </header>
+      <h4>jacket</h4>
+      <ul>
+      <li>Color: Deep Blue</li>
+      <li>Composition: Premium cotton</li>
+      <li>Fastening: 2 Buttons</li>
+      <li>Style: Coat</li>
+      <li>Features: 2 piece with white stripes</li>
+      <a href="https://www.paypal.com/ke/home" class="btn btn-info" role="button">Buy Now</a><!--end of suit6-->
+    </div>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <script>
+    $(document).ready(function(){
+      $(".picha2").click(function(){
+        var link=$(this).attr("src");
+        $("#picha3").attr("src",link);
+      });
+    });</script>
   </body>
 </html>
