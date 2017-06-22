@@ -165,6 +165,87 @@ p {
   margin-right: 20px;
 }
 
+.jumbotron {
+  background-color: grey;
+}
+
+#footerImage2 {
+  width: 509px;
+  height: 350px;
+}
+
+#aboutus {
+  text-align: center;
+}
+
+.carouselContent {
+  color: blue;
+  padding-bottom: 200px;
+}
+
+.flow1{
+    height: 150px;
+    width: 150px;
+}
+
+.row1{
+   width: 320px;
+   height: 300px;
+    
+}
+     
+   
+}
+
+.factoryImg {
+  width: 595px;
+  height: 300px;
+}
+
+#glyphiconMenu {
+  font-size: 28px;
+  color: MidnightBlue;
+}
+
+#stars {
+  float: right;
+  color: blue;
+}
+
+#logoImg2 {
+  float: right;
+}
+
+.reviews {
+  float: right;
+  color: blue;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+#twitter-icon {
+  margin-right: 20px;
+}
+
+#facebook-icon {
+  margin-right: 20px;
+}
+
+#github-icon {
+  margin-right: 20px;
+}
+
 #footerImage2 {
   width: 509px;
   height: 350px;
