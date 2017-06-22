@@ -1,5 +1,4 @@
 .top {
-
   font-size: 20px;
   background-color: black;
 }
@@ -174,7 +173,6 @@ p {
 #aboutus {
   text-align: center;
 }
-
 .carouselContent {
   color: blue;
   padding-bottom: 200px;
@@ -192,4 +190,13 @@ p {
 #head3{
   background-color: #000000;
 }
-<!--end of measurement header-->
+ul li{
+list-style: none;
+}
+.hd1{
+  font-size: 15px;
+  background-color: #000000;
+}
+.suitb{
+  background-color: #e6e6e6
+}
