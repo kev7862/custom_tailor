@@ -1,3 +1,6 @@
+#indexBody {
+  color: black;
+}
 .top {
   font-size: 20px;
   background-color: black;
@@ -151,7 +154,7 @@ h3 {
 
 p {
 
-  font-size: 20px;
+  font-size: 36px;
   color: blue;
 }
 
