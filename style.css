@@ -1,6 +1,13 @@
 #indexBody {
   color: black;
 }
+#aboutBody {
+color: black;
+}
+.collaborators {
+height: 50px;
+  width: 50px;
+}
 .carouselContent {
   font-size:38px;
   color: white;
