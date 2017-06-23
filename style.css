@@ -1,6 +1,9 @@
 #indexBody {
   color: black;
 }
+.carouselContent {
+  font-size:28px;
+}
 .paragraphIndex {
   font-size: 16px;
   color: blue;
