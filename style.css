@@ -1,3 +1,13 @@
+#indexBody {
+  color: black;
+}
+.carouselContent {
+  font-size:28px;
+}
+.paragraphIndex {
+  font-size: 16px;
+  color: blue;
+}
 .top {
   font-size: 20px;
   background-color: black;
@@ -150,7 +160,6 @@ h3 {
 }
 
 p {
-
   font-size: 20px;
   color: blue;
 }
