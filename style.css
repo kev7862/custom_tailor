@@ -364,6 +364,10 @@ button {
 ul li{
 list-style: none;
 }
+
+.aboutP {
+  color: white;
+}
 .hd1{
   font-size: 15px;
   background-color: #000000;
